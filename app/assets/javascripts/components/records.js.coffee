@@ -16,6 +16,8 @@
         React.DOM.h4
           className: 'subtitle text-center'
           'cash rules everything around me'
+        React.DOM.br null
+        React.DOM.br null
         React.DOM.table
           className: 'table table-bordered'
           React.DOM.thead null,
