@@ -6,12 +6,17 @@
     getDefaultProps: ->
       records: []
     render: ->
+    	React.DOM.div
+    		className: 'container'
       React.DOM.div
         className: 'records'
         React.DOM.h2
-          className: 'title'
-          'Records'	
-      React.DOM.table
+          className: 'title text-center'
+          'C.R.E.A.M.'
+        React.DOM.h4
+          className: 'subtitle text-center'
+          'cash rules everything around me'
+        React.DOM.table
           className: 'table table-bordered'
           React.DOM.thead null,
             React.DOM.tr null,
